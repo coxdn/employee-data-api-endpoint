@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "222fb7cd-ce50-4321-af36-fbd129eff408",
+		"name": "employee-data-api-endpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7602734"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/donations/calculate-rewards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/donations/calculate-rewards",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"donations",
+						"calculate-rewards"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
